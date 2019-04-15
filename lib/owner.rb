@@ -78,7 +78,8 @@ class Owner
   end     #def 
   
   def list_pets 
-    pet_list = "I have #{@pets.fishes.count} fish, #{@pets.dogs.count} dog(s), and #{@pets.cats.count} cat(s)."
+    binding.pry
+    #pet_list = "I have #{@pets.fishes.count} fish, #{@pets.dogs.count} dog(s), and #{@pets.cats.count} cat(s)."
   end     #def 
 
 end
