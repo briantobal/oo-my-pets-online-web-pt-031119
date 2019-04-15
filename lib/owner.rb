@@ -73,8 +73,7 @@ class Owner
     all_pets = @pets[:fishes] + @pets[:dogs] + @pets[:cats]
     all_pets.map do |pet|
       pet.mood = "nervous"
-    
-    binding.pry 
+    end 
     pets.clear
     
     
