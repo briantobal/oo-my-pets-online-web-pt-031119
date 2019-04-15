@@ -72,9 +72,11 @@ class Owner
   def sell_pets
     all_pets = @pets[:fishes] + @pets[:dogs] + @pets[:cats]
     #all_pets.mood = "nervous"
+    
     binding.pry 
     pets.clear
-                            #iterate over the pets array 
+    
+    
   end     #def 
   
 
