@@ -71,7 +71,8 @@ class Owner
   
   def sell_pets
     all_pets = @pets[:fishes] + @pets[:dogs] + @pets[:cats]
-    #all_pets.mood = "nervous"
+    all_pets.map do |pet|
+      pet.mood = "nervous"
     
     binding.pry 
     pets.clear
